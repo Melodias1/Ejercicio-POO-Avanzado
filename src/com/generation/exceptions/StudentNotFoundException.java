@@ -5,8 +5,8 @@ public class StudentNotFoundException
     extends Exception
 {
 
-    public StudentNotFoundException( )
+    public StudentNotFoundException(String message )
     {
-        super( "Student not found!" );
+        super( "Student not found! "+ message );
     }
 }
